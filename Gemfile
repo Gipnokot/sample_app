@@ -15,10 +15,13 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
-  gem "web-console"
   # Uncomment if needed:
   # gem "rack-mini-profiler"
   # gem "spring"
+end
+
+group :development do
+  gem "web-console"
 end
 
 group :test do
