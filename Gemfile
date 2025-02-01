@@ -4,6 +4,7 @@ gem "rails", "~> 8.0.1"
 gem "propshaft"
 gem "sqlite3", ">= 2.1"
 gem "puma", ">= 5.0"
+gem 'mutex_m'
 gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
