@@ -22,7 +22,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
   gem "prettier"
-  gem "byebug", "11.0.1", platforms: [ :mri, :mingw, :x64_mingw ]
+  gem "byebug", "11.1.3", platforms: [ :mri, :mingw, :x64_mingw ]
   gem "rubocop-rails-omakase", require: false
 end
 
